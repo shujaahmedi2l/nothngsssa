@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "nothngsssa"
+  description: "nothngsssa"
+  annotations:
+    github.com/project-slug: "shujaahmedi2l/nothngsssa"
+    argocd/app-name: "nothngsssa"
+  links:
+    - url: https://nothngsssa.ondexidp.com
+      title: Web Application
+      icon: LaunchIcon
+spec:
+  type: service
+  owner: guests
+  lifecycle: experimental
